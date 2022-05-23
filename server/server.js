@@ -6,10 +6,12 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // restaurant取得Route（サンプル）
-app.get("/getRestaurants", (req, res) => {
-    res.status(404).json({
+app.get("/api/getRestaurants", (req, res) => {
+    res.status(200).json({
         status: "success",
-        restaurant: "yoshinoya"
+        data: {
+            restaurant: ["yoshinoya", "sukiya", "matsuya"]
+        }
     })})
 
 app.listen(port, () => {
