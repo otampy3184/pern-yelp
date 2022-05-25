@@ -12,12 +12,14 @@ const RestaurantList = (props) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-
+            
         } catch (err){
             console.log(err);
         }
     };
     return (
         <div></div>
-    )
-}
+    );
+};
+
+export default RestaurantList;
