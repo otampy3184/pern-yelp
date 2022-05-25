@@ -9,6 +9,7 @@ const RestaurantList = (props) => {
     const [location, setLocation] = useState("");
     const [priceRange, setPriceRange] = useState("Price Range");
     
+    // TODO: complete handleSubmit
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
@@ -17,6 +18,7 @@ const RestaurantList = (props) => {
             console.log(err);
         }
     };
+    // TODO: complete return
     return (
         <div></div>
     );

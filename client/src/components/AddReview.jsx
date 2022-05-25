@@ -13,6 +13,7 @@ const AddReview = () => {
     const [reviewText, setReviewText] = useState("");
     const [rating, setRating] = useState("Rating");
 
+    // TODO: complete handleSubmitReview
     const handleSubmitReview = (e) => {
         e.preventDefault();
         try {
@@ -21,6 +22,8 @@ const AddReview = () => {
             console.log(err);
         }
     };
+
+    //TODO: complete return
     return (
         <div></div>
     );
